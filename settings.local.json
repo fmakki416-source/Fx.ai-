@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes localtunnel --port 3000)",
+      "Bash(where npx:*)",
+      "Bash(echo $PATH)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/baqer/crm/$LOCALAPPDATA/Programs/**)",
+      "Read(//c/Users/baqer/**)",
+      "Bash(powershell.exe -Command \"where.exe node; where.exe python; where.exe npx\")",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
